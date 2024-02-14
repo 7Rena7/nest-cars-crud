@@ -53,7 +53,6 @@ export class BrandsService {
   }
 
   populateBrandsWithSeedData(brands: Brand[]) {
-    console.log('brands', brands);
     this.brands = brands;
   }
 }
